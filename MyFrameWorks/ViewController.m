@@ -18,6 +18,10 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor whiteColor];
+    UILabel *textLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height / 8.0f)];
+    textLabel.text = @"191";
+    textLabel.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:textLabel];
     
 }
 
