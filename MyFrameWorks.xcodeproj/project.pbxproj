@@ -15,6 +15,33 @@
 		BBC2CE271F9F1EB200CF7486 /* MyFrameWorksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC2CE261F9F1EB200CF7486 /* MyFrameWorksTests.m */; };
 		BBC2CE321F9F1EB200CF7486 /* MyFrameWorksUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC2CE311F9F1EB200CF7486 /* MyFrameWorksUITests.m */; };
 		BBC2CE441F9F20BA00CF7486 /* MyFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC2CE421F9F20BA00CF7486 /* MyFramework.m */; };
+		BBF191201FA1AC72003630EF /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF1911E1FA1AC72003630EF /* NavigationController.m */; };
+		BBF191241FA1ACC8003630EF /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF191221FA1ACC8003630EF /* TabBarController.m */; };
+		BBF191281FA609AB003630EF /* SocketFrameWork.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF191261FA609AB003630EF /* SocketFrameWork.m */; };
+		BBF1912B1FA60B14003630EF /* MyPropertyList.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF191291FA60B14003630EF /* MyPropertyList.m */; };
+		BBF1912E1FA60C05003630EF /* AppInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF1912D1FA60C05003630EF /* AppInformation.m */; };
+		BBF191311FA60D02003630EF /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF1912F1FA60D02003630EF /* ProgressView.m */; };
+		BBF191391FA60D9C003630EF /* GBPing.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF191351FA60D9C003630EF /* GBPing.m */; };
+		BBF1913A1FA60D9C003630EF /* GBPingSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF191371FA60D9C003630EF /* GBPingSummary.m */; };
+		BBF1913D1FA60DDA003630EF /* PingHostTime.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF1913C1FA60DDA003630EF /* PingHostTime.m */; };
+		BBF191401FA60E42003630EF /* MyWebViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF1913F1FA60E42003630EF /* MyWebViewDelegate.m */; };
+		BBF191441FA60EB6003630EF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF191431FA60EB6003630EF /* Reachability.m */; };
+		BBF191471FA60ECC003630EF /* CheckNetworkandController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF191451FA60ECC003630EF /* CheckNetworkandController.m */; };
+		BBF1914B1FA60F46003630EF /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF1914A1FA60F46003630EF /* AESCrypt.m */; };
+		BBF1914E1FA60FB4003630EF /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF1914D1FA60FB3003630EF /* NSString+Base64.m */; };
+		BBF191511FA60FBE003630EF /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF191501FA60FBD003630EF /* NSData+Base64.m */; };
+		BBF191541FA60FCE003630EF /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF191531FA60FCE003630EF /* NSData+CommonCrypto.m */; };
+		BBF191571FA610CE003630EF /* ClientThrift.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF191561FA610CE003630EF /* ClientThrift.m */; };
+		BBF1915D1FA613AF003630EF /* ExchangeRedis_login.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF1915A1FA613AF003630EF /* ExchangeRedis_login.m */; };
+		BBF1916F1FA613D5003630EF /* async.c in Sources */ = {isa = PBXBuildFile; fileRef = BBF191601FA613D5003630EF /* async.c */; };
+		BBF191701FA613D5003630EF /* dict.c in Sources */ = {isa = PBXBuildFile; fileRef = BBF191621FA613D5003630EF /* dict.c */; };
+		BBF191711FA613D5003630EF /* hiredis.c in Sources */ = {isa = PBXBuildFile; fileRef = BBF191651FA613D5003630EF /* hiredis.c */; };
+		BBF191721FA613D5003630EF /* net.c in Sources */ = {isa = PBXBuildFile; fileRef = BBF191681FA613D5003630EF /* net.c */; };
+		BBF191731FA613D5003630EF /* read.c in Sources */ = {isa = PBXBuildFile; fileRef = BBF1916A1FA613D5003630EF /* read.c */; };
+		BBF191741FA613D5003630EF /* sds.c in Sources */ = {isa = PBXBuildFile; fileRef = BBF1916C1FA613D5003630EF /* sds.c */; };
+		BBF1917A1FA613DF003630EF /* CocoaRedis.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF191771FA613DF003630EF /* CocoaRedis.m */; };
+		BBF1917B1FA613DF003630EF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBF191781FA613DF003630EF /* Info.plist */; };
+		BBF1917F1FA613E8003630EF /* CocoaPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF1917E1FA613E8003630EF /* CocoaPromise.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +79,65 @@
 		BBC2CE331F9F1EB200CF7486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBC2CE421F9F20BA00CF7486 /* MyFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFramework.m; sourceTree = "<group>"; };
 		BBC2CE431F9F20BA00CF7486 /* MyFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFramework.h; sourceTree = "<group>"; };
+		BBF1911E1FA1AC72003630EF /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		BBF1911F1FA1AC72003630EF /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		BBF191221FA1ACC8003630EF /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		BBF191231FA1ACC8003630EF /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		BBF191261FA609AB003630EF /* SocketFrameWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketFrameWork.m; sourceTree = "<group>"; };
+		BBF191271FA609AB003630EF /* SocketFrameWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketFrameWork.h; sourceTree = "<group>"; };
+		BBF191291FA60B14003630EF /* MyPropertyList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPropertyList.m; sourceTree = "<group>"; };
+		BBF1912A1FA60B14003630EF /* MyPropertyList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPropertyList.h; sourceTree = "<group>"; };
+		BBF1912C1FA60C05003630EF /* AppInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInformation.h; sourceTree = "<group>"; };
+		BBF1912D1FA60C05003630EF /* AppInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppInformation.m; sourceTree = "<group>"; };
+		BBF1912F1FA60D02003630EF /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
+		BBF191301FA60D02003630EF /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
+		BBF191331FA60D9C003630EF /* GBPing-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GBPing-Prefix.pch"; sourceTree = "<group>"; };
+		BBF191341FA60D9C003630EF /* GBPing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBPing.h; sourceTree = "<group>"; };
+		BBF191351FA60D9C003630EF /* GBPing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBPing.m; sourceTree = "<group>"; };
+		BBF191361FA60D9C003630EF /* GBPingSummary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBPingSummary.h; sourceTree = "<group>"; };
+		BBF191371FA60D9C003630EF /* GBPingSummary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBPingSummary.m; sourceTree = "<group>"; };
+		BBF191381FA60D9C003630EF /* ICMPHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICMPHeader.h; sourceTree = "<group>"; };
+		BBF1913B1FA60DDA003630EF /* PingHostTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingHostTime.h; sourceTree = "<group>"; };
+		BBF1913C1FA60DDA003630EF /* PingHostTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingHostTime.m; sourceTree = "<group>"; };
+		BBF1913E1FA60E41003630EF /* MyWebViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWebViewDelegate.h; sourceTree = "<group>"; };
+		BBF1913F1FA60E42003630EF /* MyWebViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWebViewDelegate.m; sourceTree = "<group>"; };
+		BBF191421FA60EB6003630EF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		BBF191431FA60EB6003630EF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		BBF191451FA60ECC003630EF /* CheckNetworkandController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckNetworkandController.m; sourceTree = "<group>"; };
+		BBF191461FA60ECC003630EF /* CheckNetworkandController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckNetworkandController.h; sourceTree = "<group>"; };
+		BBF191491FA60F46003630EF /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
+		BBF1914A1FA60F46003630EF /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
+		BBF1914C1FA60FB3003630EF /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		BBF1914D1FA60FB3003630EF /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		BBF1914F1FA60FBD003630EF /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		BBF191501FA60FBD003630EF /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		BBF191521FA60FCE003630EF /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		BBF191531FA60FCE003630EF /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		BBF191551FA610CE003630EF /* ClientThrift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientThrift.h; sourceTree = "<group>"; };
+		BBF191561FA610CE003630EF /* ClientThrift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientThrift.m; sourceTree = "<group>"; };
+		BBF191591FA613AF003630EF /* ExchangeRedis_login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeRedis_login.h; sourceTree = "<group>"; };
+		BBF1915A1FA613AF003630EF /* ExchangeRedis_login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeRedis_login.m; sourceTree = "<group>"; };
+		BBF191601FA613D5003630EF /* async.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = async.c; sourceTree = "<group>"; };
+		BBF191611FA613D5003630EF /* async.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = async.h; sourceTree = "<group>"; };
+		BBF191621FA613D5003630EF /* dict.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dict.c; sourceTree = "<group>"; };
+		BBF191631FA613D5003630EF /* dict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dict.h; sourceTree = "<group>"; };
+		BBF191641FA613D5003630EF /* fmacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmacros.h; sourceTree = "<group>"; };
+		BBF191651FA613D5003630EF /* hiredis.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hiredis.c; sourceTree = "<group>"; };
+		BBF191661FA613D5003630EF /* hiredis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hiredis.h; sourceTree = "<group>"; };
+		BBF191671FA613D5003630EF /* macosx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macosx.h; sourceTree = "<group>"; };
+		BBF191681FA613D5003630EF /* net.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = net.c; sourceTree = "<group>"; };
+		BBF191691FA613D5003630EF /* net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = net.h; sourceTree = "<group>"; };
+		BBF1916A1FA613D5003630EF /* read.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = read.c; sourceTree = "<group>"; };
+		BBF1916B1FA613D5003630EF /* read.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = read.h; sourceTree = "<group>"; };
+		BBF1916C1FA613D5003630EF /* sds.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sds.c; sourceTree = "<group>"; };
+		BBF1916D1FA613D5003630EF /* sds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sds.h; sourceTree = "<group>"; };
+		BBF1916E1FA613D5003630EF /* win32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = win32.h; sourceTree = "<group>"; };
+		BBF191761FA613DF003630EF /* CocoaRedis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaRedis.h; sourceTree = "<group>"; };
+		BBF191771FA613DF003630EF /* CocoaRedis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaRedis.m; sourceTree = "<group>"; };
+		BBF191781FA613DF003630EF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBF191791FA613DF003630EF /* RedisKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedisKit.h; sourceTree = "<group>"; };
+		BBF1917D1FA613E8003630EF /* CocoaPromise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaPromise.h; sourceTree = "<group>"; };
+		BBF1917E1FA613E8003630EF /* CocoaPromise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaPromise.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,10 +222,133 @@
 		BBC2CE411F9F20A500CF7486 /* FrameWorks */ = {
 			isa = PBXGroup;
 			children = (
+				BBF1913E1FA60E41003630EF /* MyWebViewDelegate.h */,
+				BBF1913F1FA60E42003630EF /* MyWebViewDelegate.m */,
+				BBF1912C1FA60C05003630EF /* AppInformation.h */,
+				BBF1912D1FA60C05003630EF /* AppInformation.m */,
+				BBF191271FA609AB003630EF /* SocketFrameWork.h */,
+				BBF191261FA609AB003630EF /* SocketFrameWork.m */,
+				BBF1912A1FA60B14003630EF /* MyPropertyList.h */,
+				BBF191291FA60B14003630EF /* MyPropertyList.m */,
 				BBC2CE431F9F20BA00CF7486 /* MyFramework.h */,
 				BBC2CE421F9F20BA00CF7486 /* MyFramework.m */,
+				BBF191551FA610CE003630EF /* ClientThrift.h */,
+				BBF191561FA610CE003630EF /* ClientThrift.m */,
+				BBF191301FA60D02003630EF /* ProgressView.h */,
+				BBF1912F1FA60D02003630EF /* ProgressView.m */,
+				BBF1913B1FA60DDA003630EF /* PingHostTime.h */,
+				BBF1913C1FA60DDA003630EF /* PingHostTime.m */,
+				BBF191321FA60D9C003630EF /* GBPing */,
+				BBF191211FA1AC96003630EF /* TabBar+navigationController */,
+				BBF191411FA60E98003630EF /* CheckNetworkandController */,
+				BBF191581FA61386003630EF /* Redis */,
 			);
 			path = FrameWorks;
+			sourceTree = "<group>";
+		};
+		BBF191211FA1AC96003630EF /* TabBar+navigationController */ = {
+			isa = PBXGroup;
+			children = (
+				BBF1911F1FA1AC72003630EF /* NavigationController.h */,
+				BBF1911E1FA1AC72003630EF /* NavigationController.m */,
+				BBF191231FA1ACC8003630EF /* TabBarController.h */,
+				BBF191221FA1ACC8003630EF /* TabBarController.m */,
+			);
+			name = "TabBar+navigationController";
+			sourceTree = "<group>";
+		};
+		BBF191321FA60D9C003630EF /* GBPing */ = {
+			isa = PBXGroup;
+			children = (
+				BBF191331FA60D9C003630EF /* GBPing-Prefix.pch */,
+				BBF191341FA60D9C003630EF /* GBPing.h */,
+				BBF191351FA60D9C003630EF /* GBPing.m */,
+				BBF191361FA60D9C003630EF /* GBPingSummary.h */,
+				BBF191371FA60D9C003630EF /* GBPingSummary.m */,
+				BBF191381FA60D9C003630EF /* ICMPHeader.h */,
+			);
+			path = GBPing;
+			sourceTree = "<group>";
+		};
+		BBF191411FA60E98003630EF /* CheckNetworkandController */ = {
+			isa = PBXGroup;
+			children = (
+				BBF191481FA60F3B003630EF /* AES */,
+				BBF191421FA60EB6003630EF /* Reachability.h */,
+				BBF191431FA60EB6003630EF /* Reachability.m */,
+				BBF191461FA60ECC003630EF /* CheckNetworkandController.h */,
+				BBF191451FA60ECC003630EF /* CheckNetworkandController.m */,
+			);
+			path = CheckNetworkandController;
+			sourceTree = "<group>";
+		};
+		BBF191481FA60F3B003630EF /* AES */ = {
+			isa = PBXGroup;
+			children = (
+				BBF191491FA60F46003630EF /* AESCrypt.h */,
+				BBF1914A1FA60F46003630EF /* AESCrypt.m */,
+				BBF1914C1FA60FB3003630EF /* NSString+Base64.h */,
+				BBF1914D1FA60FB3003630EF /* NSString+Base64.m */,
+				BBF191521FA60FCE003630EF /* NSData+CommonCrypto.h */,
+				BBF191531FA60FCE003630EF /* NSData+CommonCrypto.m */,
+				BBF1914F1FA60FBD003630EF /* NSData+Base64.h */,
+				BBF191501FA60FBD003630EF /* NSData+Base64.m */,
+			);
+			path = AES;
+			sourceTree = "<group>";
+		};
+		BBF191581FA61386003630EF /* Redis */ = {
+			isa = PBXGroup;
+			children = (
+				BBF1917C1FA613E8003630EF /* PromiseKit */,
+				BBF191751FA613DF003630EF /* RedisKit */,
+				BBF1915F1FA613D5003630EF /* Hiredis */,
+				BBF191591FA613AF003630EF /* ExchangeRedis_login.h */,
+				BBF1915A1FA613AF003630EF /* ExchangeRedis_login.m */,
+			);
+			path = Redis;
+			sourceTree = "<group>";
+		};
+		BBF1915F1FA613D5003630EF /* Hiredis */ = {
+			isa = PBXGroup;
+			children = (
+				BBF191601FA613D5003630EF /* async.c */,
+				BBF191611FA613D5003630EF /* async.h */,
+				BBF191621FA613D5003630EF /* dict.c */,
+				BBF191631FA613D5003630EF /* dict.h */,
+				BBF191641FA613D5003630EF /* fmacros.h */,
+				BBF191651FA613D5003630EF /* hiredis.c */,
+				BBF191661FA613D5003630EF /* hiredis.h */,
+				BBF191671FA613D5003630EF /* macosx.h */,
+				BBF191681FA613D5003630EF /* net.c */,
+				BBF191691FA613D5003630EF /* net.h */,
+				BBF1916A1FA613D5003630EF /* read.c */,
+				BBF1916B1FA613D5003630EF /* read.h */,
+				BBF1916C1FA613D5003630EF /* sds.c */,
+				BBF1916D1FA613D5003630EF /* sds.h */,
+				BBF1916E1FA613D5003630EF /* win32.h */,
+			);
+			path = Hiredis;
+			sourceTree = "<group>";
+		};
+		BBF191751FA613DF003630EF /* RedisKit */ = {
+			isa = PBXGroup;
+			children = (
+				BBF191761FA613DF003630EF /* CocoaRedis.h */,
+				BBF191771FA613DF003630EF /* CocoaRedis.m */,
+				BBF191781FA613DF003630EF /* Info.plist */,
+				BBF191791FA613DF003630EF /* RedisKit.h */,
+			);
+			path = RedisKit;
+			sourceTree = "<group>";
+		};
+		BBF1917C1FA613E8003630EF /* PromiseKit */ = {
+			isa = PBXGroup;
+			children = (
+				BBF1917D1FA613E8003630EF /* CocoaPromise.h */,
+				BBF1917E1FA613E8003630EF /* CocoaPromise.m */,
+			);
+			path = PromiseKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +459,7 @@
 			files = (
 				BBC2CE1A1F9F1EB200CF7486 /* LaunchScreen.storyboard in Resources */,
 				BBC2CE171F9F1EB200CF7486 /* Assets.xcassets in Resources */,
+				BBF1917B1FA613DF003630EF /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,10 +484,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBF191511FA60FBE003630EF /* NSData+Base64.m in Sources */,
+				BBF1914E1FA60FB4003630EF /* NSString+Base64.m in Sources */,
 				BBC2CE441F9F20BA00CF7486 /* MyFramework.m in Sources */,
+				BBF191311FA60D02003630EF /* ProgressView.m in Sources */,
 				BBC2CE121F9F1EB200CF7486 /* ViewController.m in Sources */,
+				BBF191701FA613D5003630EF /* dict.c in Sources */,
+				BBF1913A1FA60D9C003630EF /* GBPingSummary.m in Sources */,
+				BBF1916F1FA613D5003630EF /* async.c in Sources */,
+				BBF191441FA60EB6003630EF /* Reachability.m in Sources */,
+				BBF191471FA60ECC003630EF /* CheckNetworkandController.m in Sources */,
+				BBF191711FA613D5003630EF /* hiredis.c in Sources */,
+				BBF1912B1FA60B14003630EF /* MyPropertyList.m in Sources */,
+				BBF191391FA60D9C003630EF /* GBPing.m in Sources */,
+				BBF191201FA1AC72003630EF /* NavigationController.m in Sources */,
+				BBF1914B1FA60F46003630EF /* AESCrypt.m in Sources */,
+				BBF191541FA60FCE003630EF /* NSData+CommonCrypto.m in Sources */,
+				BBF191241FA1ACC8003630EF /* TabBarController.m in Sources */,
+				BBF191281FA609AB003630EF /* SocketFrameWork.m in Sources */,
+				BBF1912E1FA60C05003630EF /* AppInformation.m in Sources */,
+				BBF1915D1FA613AF003630EF /* ExchangeRedis_login.m in Sources */,
+				BBF191401FA60E42003630EF /* MyWebViewDelegate.m in Sources */,
 				BBC2CE1D1F9F1EB200CF7486 /* main.m in Sources */,
+				BBF191731FA613D5003630EF /* read.c in Sources */,
 				BBC2CE0F1F9F1EB200CF7486 /* AppDelegate.m in Sources */,
+				BBF191721FA613D5003630EF /* net.c in Sources */,
+				BBF191571FA610CE003630EF /* ClientThrift.m in Sources */,
+				BBF1917F1FA613E8003630EF /* CocoaPromise.m in Sources */,
+				BBF191741FA613D5003630EF /* sds.c in Sources */,
+				BBF1913D1FA60DDA003630EF /* PingHostTime.m in Sources */,
+				BBF1917A1FA613DF003630EF /* CocoaRedis.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

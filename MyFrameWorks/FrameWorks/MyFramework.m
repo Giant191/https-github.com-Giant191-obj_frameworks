@@ -12,6 +12,40 @@
 
 @implementation MyFramework
 
+#pragma mark - Get Custom Color
+
++ (UIColor *)getCustomColor:(MyColorType)type {
+    
+    UIColor *color;
+    
+    switch (type) {
+        case MyBackgroundColor:
+            color = [UIColor colorWithRed:[MyFramework getRGBFloat:36] green:[MyFramework getRGBFloat:37] blue:[MyFramework getRGBFloat:41] alpha:1];
+            break;
+        case MyNavigationColor:
+            color = [UIColor colorWithRed:[MyFramework getRGBFloat:106] green:[MyFramework getRGBFloat:117] blue:[MyFramework getRGBFloat:138] alpha:1];
+            break;
+        case MyTabBarColor:
+            color = [UIColor colorWithRed:[MyFramework getRGBFloat:106] green:[MyFramework getRGBFloat:117] blue:[MyFramework getRGBFloat:138] alpha:1];
+            break;
+        default:
+            break;
+    }
+    
+    return color;
+    
+}
+
+#pragma mark - Get RGB Color Float
+
++ (CGFloat)getRGBFloat:(CGFloat)value {
+    
+    CGFloat newvalue = value / 255;
+    
+    return newvalue;
+    
+}
+
 #pragma mark - Create Alert Controller Title
 
 + (void)createAlertControllerTitle:(NSString *)title alertMessage:(NSString *)alermessage CancelTitle:(NSString *)cancelTitle CreateViewController:(UIViewController *)createViewController {

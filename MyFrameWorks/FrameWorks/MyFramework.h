@@ -9,9 +9,21 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
+typedef NS_ENUM(int,MyColorType) {
+    
+    MyBackgroundColor = 0,
+    MyNavigationColor,
+    MyTabBarColor
+    
+};
+
 @interface MyFramework : NSObject
 
 NS_ASSUME_NONNULL_BEGIN
+
++ (UIColor *)getCustomColor:(MyColorType)type;
+
++ (CGFloat)getRGBFloat:(CGFloat)value;
 
 + (void)createAlertControllerTitle:(NSString *)title alertMessage:(NSString *)alermessage CancelTitle:(NSString *)cancelTitle CreateViewController:(UIViewController *)createViewController;
 
